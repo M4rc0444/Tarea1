@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  
+  .contenedor_nav
+  {
+    display: none;
+  }
+  .contenedor_nav ul {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0;
+  }
+  .contenedor_nav ul li
+  {
+    border-bottom: 1px gray dotted;
+  }
+  
+  .contenedor_nav ul li a
+  {
+   border: 0;
+  }
+  .seccion1
+  {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  
+}

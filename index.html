@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css'>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="css/movil.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="ancho">
+    <figure class="logo">
+      <img src="img/pullrequest-logo.svg" alt="Logo">
+    </figure>
+
+    <a href="#" class="icono_menu" id="icono_movil">
+      <i class="fa-solid fa-bars"></i>
+    </a>
+
+    
+  </header>
+
+  <nav class="contenedor_nav ancho" id="contendor_menu">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Empresa</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Ubicacion</a></li>
+      <li><a href="#">Contactanos</a></li>
+    </ul>
+    </nav>
+    <section class="seccion1 ancho">
+      <div class="contenedor_info">
+        <h2>Creación de paginas web</h2>
+        <p>Curso básico de HTML5 Y CSS3</p>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque delectus id quasi porro rem sequi dolor suscipit, voluptatum eligendi obcaecati doloribus eius laudantium expedita. Aliquam quisquam blanditiis dicta minus.</span>
+        <ul>
+          <li>
+            <a href="">Ver</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <figure class="figura1">
+          <img src="img/foto_pullrequest.svg" alt="">
+        </figure>
+      </div>
+    </section>
+    <footer class="ancho">
+      <p>@MarcoAvila</p>
+    </footer>
+<script>
+
+  $("#icono_movil").click(function(){
+    $("#contendor_menu").slideToggle();
+  });
+</script>
+
+
+</body>
+</html>
